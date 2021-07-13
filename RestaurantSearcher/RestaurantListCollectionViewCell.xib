@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="restaurantListCell" id="gTV-IL-0wX" customClass="RestaurantListCollectionViewCell" customModule="RestaurantSearcher" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="幸福飯店 ルクア大阪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cN-Zr-CaB">
+                        <rect key="frame" x="8" y="8" width="294" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="nSz-eG-5m1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="store" translatesAutoresizingMaskIntoConstraints="NO" id="exY-JO-F4r">
+                        <rect key="frame" x="8" y="44" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="5n2-5Y-ILH"/>
+                            <constraint firstAttribute="height" constant="100" id="FdM-F8-mwr"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accessicon" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-Kf-ge4">
+                        <rect key="frame" x="8" y="152" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="PsF-jw-Xfh"/>
+                            <constraint firstAttribute="width" constant="20" id="QwF-qg-AsK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中華" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hH7-F4-YRe">
+                        <rect key="frame" x="116" y="44" width="24" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="79X-7t-bBW">
+                        <rect key="frame" x="116" y="64.5" width="20" height="19"/>
+                        <color key="tintColor" red="1" green="0.46666666670000001" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="cth-i2-lyj"/>
+                            <constraint firstAttribute="width" constant="20" id="xYB-JT-6iK"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="closeicon" translatesAutoresizingMaskIntoConstraints="NO" id="SQh-HA-U8V">
+                        <rect key="frame" x="116" y="92" width="20" height="20"/>
+                        <color key="tintColor" red="1" green="0.46666666670000001" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="TPe-eM-Wli"/>
+                            <constraint firstAttribute="height" constant="20" id="Wqv-bp-Ddd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2001～3000円" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BuR-Bx-j34">
+                        <rect key="frame" x="144" y="68" width="158" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ルクア大阪の休館日に準ずる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7A-8m-tf9">
+                        <rect key="frame" x="144" y="96" width="158" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JR大阪駅徒歩1分/地下鉄御堂筋線梅田駅徒歩3分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2k-a6-gCW">
+                        <rect key="frame" x="36" y="156" width="266" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xhX-Kf-ge4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="0xD-JR-iBz"/>
+                <constraint firstItem="79X-7t-bBW" firstAttribute="top" secondItem="hH7-F4-YRe" secondAttribute="bottom" constant="8" id="3W8-ef-l7r"/>
+                <constraint firstItem="M7A-8m-tf9" firstAttribute="centerY" secondItem="SQh-HA-U8V" secondAttribute="centerY" id="4oY-Ff-dwh"/>
+                <constraint firstItem="xhX-Kf-ge4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="7ZZ-Bm-Pqw"/>
+                <constraint firstItem="79X-7t-bBW" firstAttribute="leading" secondItem="hH7-F4-YRe" secondAttribute="leading" id="8AV-Y2-lWS"/>
+                <constraint firstItem="M7A-8m-tf9" firstAttribute="leading" secondItem="BuR-Bx-j34" secondAttribute="leading" id="BcZ-7Q-Ifb"/>
+                <constraint firstItem="8cN-Zr-CaB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="C05-64-rDQ"/>
+                <constraint firstAttribute="trailing" secondItem="8cN-Zr-CaB" secondAttribute="trailing" constant="8" id="Crg-TS-G69"/>
+                <constraint firstItem="SQh-HA-U8V" firstAttribute="top" secondItem="79X-7t-bBW" secondAttribute="bottom" constant="8" id="GLZ-Pt-FtN"/>
+                <constraint firstAttribute="bottom" secondItem="xhX-Kf-ge4" secondAttribute="bottom" constant="8" id="K7x-LO-doN"/>
+                <constraint firstItem="exY-JO-F4r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="NGH-ui-Cgl"/>
+                <constraint firstItem="hH7-F4-YRe" firstAttribute="leading" secondItem="exY-JO-F4r" secondAttribute="trailing" constant="8" id="NYe-7S-cjh"/>
+                <constraint firstItem="D2k-a6-gCW" firstAttribute="centerY" secondItem="xhX-Kf-ge4" secondAttribute="centerY" id="Nc0-Rj-MZY"/>
+                <constraint firstItem="SQh-HA-U8V" firstAttribute="leading" secondItem="hH7-F4-YRe" secondAttribute="leading" id="PTD-rK-eS9"/>
+                <constraint firstItem="exY-JO-F4r" firstAttribute="top" secondItem="8cN-Zr-CaB" secondAttribute="bottom" constant="8" id="TYm-kO-FhH"/>
+                <constraint firstItem="D2k-a6-gCW" firstAttribute="leading" secondItem="xhX-Kf-ge4" secondAttribute="trailing" constant="8" id="Wpu-pa-M9G"/>
+                <constraint firstAttribute="trailing" secondItem="BuR-Bx-j34" secondAttribute="trailing" constant="8" id="X6P-EX-HAT"/>
+                <constraint firstItem="8cN-Zr-CaB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="a1y-7X-hOS"/>
+                <constraint firstItem="hH7-F4-YRe" firstAttribute="top" secondItem="exY-JO-F4r" secondAttribute="top" id="acz-kP-svV"/>
+                <constraint firstAttribute="trailing" secondItem="M7A-8m-tf9" secondAttribute="trailing" constant="8" id="chu-Jb-stU"/>
+                <constraint firstItem="exY-JO-F4r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="d68-rG-oUZ"/>
+                <constraint firstItem="BuR-Bx-j34" firstAttribute="centerY" secondItem="79X-7t-bBW" secondAttribute="centerY" id="is9-q8-gKS"/>
+                <constraint firstItem="BuR-Bx-j34" firstAttribute="leading" secondItem="79X-7t-bBW" secondAttribute="trailing" constant="8" id="p2r-ho-2sO"/>
+                <constraint firstItem="xhX-Kf-ge4" firstAttribute="top" secondItem="exY-JO-F4r" secondAttribute="bottom" constant="8" id="sBp-QU-FeJ"/>
+                <constraint firstAttribute="trailing" secondItem="D2k-a6-gCW" secondAttribute="trailing" constant="8" id="wxf-qw-rpm"/>
+            </constraints>
+            <size key="customSize" width="310" height="180"/>
+            <connections>
+                <outlet property="accessLabel" destination="D2k-a6-gCW" id="EYh-hu-y38"/>
+                <outlet property="closeLabel" destination="M7A-8m-tf9" id="IsG-PE-dtO"/>
+                <outlet property="genreNameLabel" destination="hH7-F4-YRe" id="NhC-ZB-U24"/>
+                <outlet property="openLabel" destination="BuR-Bx-j34" id="TAD-oW-dtU"/>
+                <outlet property="restaurantNameLabel" destination="8cN-Zr-CaB" id="nZ0-Cx-lTy"/>
+                <outlet property="thumbnailImageView" destination="exY-JO-F4r" id="q4b-Fi-aIj"/>
+            </connections>
+            <point key="canvasLocation" x="220.28985507246378" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="accessicon" width="15" height="20.5"/>
+        <image name="clock" catalog="system" width="128" height="121"/>
+        <image name="closeicon" width="20.5" height="21.5"/>
+        <image name="store" width="238" height="238"/>
+    </resources>
+</document>
